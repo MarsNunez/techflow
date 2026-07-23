@@ -19,10 +19,10 @@ function writeDatabase(data: any) {
 
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const db = readDatabase();
-  const id = params.id;
 
   db.contacts = db.contacts.filter((contact: any) => contact.id !== id);
   writeDatabase(db);
