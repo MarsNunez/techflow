@@ -1,0 +1,13 @@
+{
+  "contacts": [
+    {
+      "id": "1784832887168",
+      "nombre": "Juan García",
+      "email": "juan@example.com",
+      "telefono": "+34 600 123 456",
+      "asunto": "Consulta sobre desarrollo web",
+      "mensaje": "Me gustaría conocer más sobre sus servicios de desarrollo web y posiblemente trabajar en un proyecto importante.",
+      "fecha": "23/7/2026"
+    }
+  ]
+}
